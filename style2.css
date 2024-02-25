@@ -1,0 +1,44 @@
+/* GENERAL */
+* {
+    background-color: var(--background-grey);
+    font-family: 'SFProMedium';
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'SFProBold';
+    src: url('./assets/fonts/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: 'SFProMedium';
+    src: url('./assets/fonts/SFPRODISPLAYMEDIUM.OTF');
+}
+@font-face {
+    font-family: 'SFProRegular';
+    src: url('./assets/fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+
+* {
+    font-family: 'SFProMedium';
+}
+
+.answer_container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+.title {
+    padding: 24px 40px;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    width: 45%;
+    background-color: rgb(125, 161, 192);
+}
