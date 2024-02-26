@@ -1,25 +1,21 @@
-/* ----- PREGUNTA 1 ----- */
-const respuestas1 = {
-    album1: "kanye"
-};
-
-/* ----- PREGUNTA 2 ----- */
-const respuestas2 = {
+/* ----- RESPUESTAS ----- */
+const respuestas = {
+    dark_twisted1: "kanye",
     paris2: "kanye",
-    paris2: "jayz"
-};
-
-/* ----- PREGUNTA 3 ----- */
-const respuestas3 = {
-    dead3: "tupac"
-};
-
-/* ----- PREGUNTA 4 ----- */
-const respuestas4 = {
-    slim4: "eminem"
-};
-
-/* ----- PREGUNTA 5 ----- */
-const respuestas5 = {
+    paris2: "jayz",
+    dead3: "tupac",
+    slim4: "eminem",
     goodDay5: "cube"
 };
+
+
+
+document.querySelector('form[name="hip_hop"]').addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    console.log('dark_twisted1', event.target.elements.dark_twisted.value)
+    console.log('dark_twisted1', event.target.elements['dark_twisted1'].value)
+
+    console.log('paris2', event.target.elements.dark_twisted.value)
+    console.log('paris2', event.target.elements['paris2'].value)
+})

@@ -5,27 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style2.css">
+    <script defer src="./script.js"></script>
 </head>
 <body>
     <main>
-        <!-- ----- PREGUNTA 1 ----- -->
-        <section>
-            <h3 class="title">1. ¿A cuál de estos raperos pertenece el album "My Beautiful Dark Twisted Fantasy"?
-            </h2>
-            <article class="answer_container">
-            <div class="answer">
-                <p>Jay-z</p>
-            </div>
-            <div class="answer">
-                <p>Eminem</p>
-            </div>
-            <div class="answer">
-                <p>Kanye West</p>
-            </div>
-            <div class="answer">
-                <p>Kodak Black</p>
-            </div>
+        <header>EL QUIZ DEL HIP-HOP</header>
+        
+        <form name="hip_hop">
+            <!-- ----- PREGUNTA 1 ----- -->
+            <fieldset>
+                <legend class="title">1. ¿A cuál de estos raperos pertenece el album "My Beautiful Dark Twisted Fantasy"?</legend>
+                <article class="answer_container">
+                <div class="answer">
+                    <label for="jayz_field1">Jay-z</label>
+                    <input id= "jayz_field1" type="radio" name="dark_twisted1" value="jayz">
+                </div>
+                <div class="answer">
+                    <label for="eminem_field1">Eminem</label>
+                    <input id= "eminem_field1" type="radio" name="dark_twisted1" value="eminem">
+                </div>
+                <div class="answer">
+                    <label for="kanye_field1">Kanye West</label>
+                    <input id= "kanye_field1" type="radio" name="dark_twisted1" value="kanye">
+                </div>
+                <div class="answer">
+                    <label for="kodak_field1">Kodak Black</label>
+                    <input id= "kodak_field1" type="radio" name="dark_twisted1" value="kodak">
+                </div>
+                </article>
+            </fieldset>
 
+            <!-- ----- PREGUNTA 2 ----- -->
+            <fieldset>
+                <legend class="title">2. ¿Cuáles de estos raperos cantaron en París 11 veces seguidas la canción "Ni**as in Paris?</legend>
+                <article class="answer_container">
+                <div class="answer">
+                    <label for="kanye_field2">Kanye West</label>
+                    <input id= "kanye_field2" type="checkbox" name="paris2" value="kanye">
+                </div>
+                <div class="answer">
+                    <label for="yatchy-field2">Lil Yatchy</label>
+                    <input id= "yatchy-field2" type="checkbox" name="paris2" value="yatchy">
+                </div>
+                <div class="answer">
+                    <label for="jcole_field2">J-Cole</label>
+                    <input id= "jcole_field2" type="checkbox" name="paris2" value="jcole">
+                </div>
+                <div class="answer">
+                    <label for="jayz_field2">Jay-Z</label>
+                    <input id= "jayz_field2" type="checkbox" name="paris2" value="jayz">
+                </div>
+                </article>
+            </fieldset>
+
+            <!-- ----- PREGUNTA 3 ----- -->
+            <fieldset>
+                <legend class="title">3. ¿Qué rapero murió de un disparo en Las Vegas en 1996?</legend>
+                <article class="answer_container">
+                <div class="answer">
+                    <label for="dre_field3">Dr. Dre</label>
+                    <input id= "dre_field3" type="radio" name="dead3" value="dre">
+                </div>
+                <div class="answer">
+                    <label for="tupac_field3">Tupac Shakur</label>
+                    <input id= "tupac_field3-field2" type="radio" name="dead3" value="tupac">
+                </div>
+                <div class="answer">
+                    <label for="eazy_field3">Eazy-E</label>
+                    <input id= "eazy_field3" type="radio" name="dead3" value="eazy">
+                </div>
+                <div class="answer">
+                    <label for="big_field3">Notorious BIG</label>
+                    <input id= "big_field3" type="radio" name="dead3" value="big">
+                </div>
+                </article>
+            </fieldset>
+
+            <!-- ----- PREGUNTA 4 ----- -->
+            <fieldset>
+                <legend class="title">4. ¿Cuál de éstos raperos es conocido como Slim Shady?</legend>
+                <article class="answer_container">
+                <div class="answer">
+                    <label for="snoop_field4">Snoop Dogg</label>
+                    <input id= "snoop_field4" type="radio" name="slim4" value="snoop">
+                </div>
+                <div class="answer">
+                    <label for="50cent_field4">50 Cent</label>
+                    <input id= "50cent_field4-field2" type="radio" name="slim4" value="50cent">
+                </div>
+                <div class="answer">
+                    <label for="jcole_field4">J-Cole</label>
+                    <input id= "jcole_field4" type="radio" name="slim4" value="jcole">
+                </div>
+                <div class="answer">
+                    <label for="eminem_field4">Eminem</label>
+                    <input id= "eminem_field4" type="radio" name="slim4" value="eminem">
+                </div>
+                </article>
+            </fieldset>
+
+            <!-- ----- PREGUNTA 5 ----- -->
+            <fieldset>
+                <legend class="title">5. ¿A quién pertenece la canción "Today was a good day"?</legend>
+                <article class="answer_container">
+                <div class="answer">
+                    <label for="snoop_field4">MF Doom</label>
+                    <input id= "snoop_field4" type="radio" name="slim4" value="snoop">
+                </div>
+                <div class="answer">
+                    <label for="50cent_field4">Kid Cudi</label>
+                    <input id= "50cent_field4-field2" type="radio" name="slim4" value="50cent">
+                </div>
+                <div class="answer">
+                    <label for="jcole_field4">Ice Cube</label>
+                    <input id= "jcole_field4" type="radio" name="slim4" value="jcole">
+                </div>
+                <div class="answer">
+                    <label for="eminem_field4">Dr. Dre</label>
+                    <input id= "eminem_field4" type="radio" name="slim4" value="eminem">
+                </div>
+                </article>
+            </fieldset>
+
+            <button type="submit">SUBMIT QUIZ</button>
+
+            
+
+                </article>
+            </fieldset>
+        </form>
     </main>
     
 </body>

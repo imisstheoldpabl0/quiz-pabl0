@@ -33,12 +33,15 @@
 
 .title {
     padding: 24px 40px;
+    width: 50%;
 }
 
-.answer {
+.answer { /* TABLET MODE AND DESKTOP */
     display: flex;
-    justify-content: center;
     margin: 8px;
     width: 45%;
+    height: 50px;
     background-color: rgb(125, 161, 192);
+    justify-content: center;
+    align-items: center;
 }
