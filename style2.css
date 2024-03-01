@@ -45,3 +45,24 @@
     justify-content: center;
     align-items: center;
 }
+
+/* input {
+    visibility:hidden;
+} */
+
+button {
+    padding: 12px;
+    margin: 24px;
+}
+
+/* input {
+    display: none;
+} */
+
+#incorrecto {
+    background-color: red;
+}
+
+#correcto {
+    background-color: green;
+}
