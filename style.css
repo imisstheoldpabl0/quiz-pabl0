@@ -22,3 +22,47 @@
 * {
     font-family: 'SFProMedium';
 }
+
+.answer_container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+.title {
+    padding: 24px 40px;
+    width: 50%;
+}
+
+.answer { /* TABLET MODE AND DESKTOP */
+    display: flex;
+    margin: 8px;
+    width: 45%;
+    height: 50px;
+    background-color: rgb(125, 161, 192);
+    justify-content: center;
+    align-items: center;
+}
+
+/* input {
+    visibility:hidden;
+} */
+
+button {
+    padding: 12px;
+    margin: 24px;
+}
+
+/* input {
+    display: none;
+} */
+
+#incorrecto {
+    background-color: red;
+}
+
+#correcto {
+    background-color: green;
+}
