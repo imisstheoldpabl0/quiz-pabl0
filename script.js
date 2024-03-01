@@ -34,16 +34,21 @@ document.getElementById('hip_hop_quiz').addEventListener('submit', (event) => {
     const pregunta5 = event.target.pregunta5.value;
 
     // PINTAR ERRONEOS
+    /* if (pregunta1 != pregunta1.value) {
+        let respIncorrecta = document.body.getElementsByTagName(article) // seleccionar pregunta 1 si no es la correcta
+        document.getElementsByName(article).innerHTML += `<id = "incorrecto>` // pintar id relacionado al CSS
+    } else {
+        document.getElementsByName(article).innerHTML += `<id = "correcto>` // pintar id relacionado al CSS
+    } */
 
     for (let i = 0; i < preguntasTotales; i++) {
         let respuestaUsuario = document.querySelector(`input[name="pregunta${i+1}"]:checked`)?.value;
         if (respuestaUsuario != respuestas[`pregunta${i+1}`]) {
-            alert(`La pregunta${i+1} está mal`)
+            alert(`La pregunta ${i+1} está mal`)
         }
     }
 
     // VALIDACIONES
-
     if (pregunta1 == "" || pregunta2 == "" || pregunta3 == "" || pregunta4 == "" || pregunta5 == "") {
         alert("Asegúrate de haber seleccionado todas las opciones");
     }
