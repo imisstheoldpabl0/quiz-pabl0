@@ -41,6 +41,7 @@ document.getElementById('hip_hop_quiz').addEventListener('submit', (event) => {
         document.getElementsByName(article).innerHTML += `<id = "correcto>` // pintar id relacionado al CSS
     } */
 
+    // ALERTA DE QUÉ PREGUNTAS ESTÁN MAL
     for (let i = 0; i < preguntasTotales; i++) {
         let respuestaUsuario = document.querySelector(`input[name="pregunta${i+1}"]:checked`)?.value;
         if (respuestaUsuario != respuestas[`pregunta${i+1}`]) {
@@ -48,7 +49,7 @@ document.getElementById('hip_hop_quiz').addEventListener('submit', (event) => {
         }
     }
 
-    // VALIDACIONES
+    // CHECKEO DE PREGUNTAS SIN CONTESTAR
     if (pregunta1 == "" || pregunta2 == "" || pregunta3 == "" || pregunta4 == "" || pregunta5 == "") {
         alert("Asegúrate de haber seleccionado todas las opciones");
     }
