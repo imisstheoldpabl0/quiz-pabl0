@@ -26,7 +26,7 @@ document.getElementById('hip_hop_quiz').addEventListener('submit', (event) => {
         }
     }
 
-    //OG
+    // RESPUESTAS
     const pregunta1 = event.target.pregunta1.value;
     const pregunta2 = event.target.pregunta2.value;
     const pregunta3 = event.target.pregunta3.value;
